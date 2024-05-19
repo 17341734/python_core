@@ -11,40 +11,23 @@
 # numeric types are automatically understood by python
 
 # In[1]:
-
-
 x=7
 
-
 # In[2]:
-
-
 type(x)
 
-
 # In[3]:
-
-
 x=7.0
 
 
 # In[4]:
-
-
 type(x)
-
 
 # In[5]:
-
-
 x=3+1j
 
-
 # In[6]:
-
-
 type(x)
-
 
 # ## Strings 
 
@@ -52,59 +35,31 @@ type(x)
 # <br> You can write strings using either single quotes ' or double quotes "
 
 # In[7]:
-
-
 a="this is a string";a
 
-
 # In[8]:
-
-
 b='this is also a string';b
 
-
 # In[9]:
-
-
 c="ahmet's idea";c
-
 
 # For multiline string use triple of single-quote or double-quote
 
 # In[10]:
-
-
 d=""" 
 this is a multi line
 string
 """
-
-
 # In[11]:
-
-
 d
-
-
 # \n character is a special character which tells the computer to go to next line
 
 # In[12]:
-
-
 print(d)
-
-
 # ### len() function gives the number of element in a data object in python 
-
 # In[13]:
-
-
 b="this is a string"
-
-
 # In[14]:
-
-
 len(b)
 
 
